@@ -5,9 +5,9 @@ Progetto finalizzato per l'apprendimento di LUA agli utenti del Google Developer
 
 ## Capitolo 0 - Introduzione a LUA
 
-LUA è un linguaggio di scripting, Open Source, scritto in ANSI C e viene utilizzato per estendere le funzionalità di altre applicazioni scritte in linguaggi differenti (tipo le mod di The Binding of Isaac e Minecraft)
+LUA è un linguaggio di scripting Open Source, scritto in ANSI C e viene utilizzato per estendere le funzionalità di altre applicazioni scritte in linguaggi differenti (tipo le mod di The Binding of Isaac e Minecraft)
 
-E' un linguaggio multi-paradigma in questo modo è possibile risolvere diversi problemi nel modo in cui preferiamo.
+E' un linguaggio multi-paradigma in questo modo è possibile risolvere diversi problemi nel modo in cui preferiamo(procedurale, funzionale, orientato agli oggetti).
 
 LUA è un linguaggio abbastanza accessibile, ma questo non significa che è un linguaggio semplice da imparare(sopratutto da chi viene da altri linguaggi)
 
