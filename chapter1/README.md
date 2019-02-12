@@ -73,3 +73,61 @@ Ciao!
 ```
 
 Se vedete una ripetizione nelle ultime due righe è normale. Il primo "Ciao" è l'input della tastiera ricavato dal comando io.read(), mentre il secondo è il print del valore restituito dal comando io.read() (indovinate il valore)
+
+
+## Capitolo 1.3 - Tipi e Valori
+
+LUA, come per Javascript, è un linguaggio dinamico. Non ci sono definizioni di tipo; ogni valore di LUA ha un suo tipo.
+
+Il comando "type()" ci restituisce il tipo di dato passato
+
+```sh
+$ lua
+Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
+ >print(type("Il GDG è bello!"))  --> stringa
+ >print(type(10.4*3))         --> number
+ >print(type(print))          --> function
+ >print(type(type))           --> function
+ >print(type(true))           --> boolean
+ >print(type(nil))            --> nil
+ >print(type(type(X)))        --> stringa!
+```
+L'ultima notazione restituisce una stringa, perché il comando "type()" restituisce il tipo del valore passato come stringa.
+
+Da notare che pure i comandi "print" e "type" restituiscono 
+
+## Capitolo 1.4 Le variabili
+
+Come detto, LUA non prevede la tipizzazione dei dati e questo di riflette sulla definizione delle variabili dove non richiede la definizione dei tipi
+
+Se una variabile non contiene alcun dato, viene restituito il valore nullo nil
+
+
+```sh
+$ lua
+Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
+ >print(b) --> nil
+ >b = 10
+ >print(b) --> 10
+```
+
+Le variabile b viene definita come "globale".
+LUA permette di lavorare col Garbage Collector, in quanto ci permette di eliminare la variabile globale "b" con la seguente notazione
+
+```sh
+$ lua
+Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
+ >b = nil
+ >print(b) --> nil
+```
+
+Esitono anche variabili di tipo "locale" che a differenza di quelle locali, vengono eliminate dopo dell'esecuzione del programma(e non solo, ma ne riparleremo).
+
+Vengono definite nella seguente notazione:
+
+
+```sh
+$ lua
+Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
+ >local b = 0
+```
