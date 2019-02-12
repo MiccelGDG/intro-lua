@@ -94,7 +94,7 @@ Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
 ```
 L'ultima notazione restituisce una stringa, perché il comando "type()" restituisce il tipo del valore passato come stringa.
 
-Da notare che pure i comandi "print" e "type" restituiscono 
+Da notare che pure i comandi "print" e "type" restituiscono "function" come tipo di dato
 
 ## Capitolo 1.4 Le variabili
 
