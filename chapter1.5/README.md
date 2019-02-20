@@ -2,9 +2,9 @@
 
 Finora abbiamo dato dei comandi al nostro interprete **LUA** attraverso il terminale; ma se volessimo scrivere una manciata di istruzioni in un file per poi darle in pasta a **LUA** ?
 
-La risposta risposta? 
+La risposta? 
 
-![](C:\Users\michele\Documents\Progetti\LUA\intro-lua\img\off-course.gif)
+![](https://github.com/MiccelGDG/intro-lua/blob/master/img/off-course.gif)
 
 
 
