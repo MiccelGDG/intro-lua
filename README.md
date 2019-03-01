@@ -21,3 +21,6 @@ LUA è un linguaggio abbastanza accessibile, ma questo non significa che è un l
 Ti consiglio di andare sul sito ufficiale di [LUA.org] per scaricare l'interprete o il codice sorgente e di leggere il manuale su [https://www.lua.org/manual/5.0/manual.html]
 
 
+## Aggiornamento
+
+* 20/02/2019 Inserito Capitolo 1.6 dedicato alle Tabelle 
