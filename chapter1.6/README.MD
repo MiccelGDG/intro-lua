@@ -50,3 +50,20 @@ print(table.getn(a)) --> 4
 a[0] = 1
 print(table.getn(a)) --> 5
 ```
+
+Il comando table.getn(a) restituisce la dimensione di una **tabella** 
+
+La tabelle non usano solo numeri per indicizzare, utilizzando pure le stringhe
+
+```lua
+local a = {}
+a["weapon_a"] = "pistol"
+print(a["weapon_a"]) --> pistol
+print(a.weapon_a) --> pistol
+```
+
+Con l'ultimo esempio forse sono andato oltre l'argomento, ma LUA permette due modi per accedere alla stessa risorsa utilizzando le stringhe:
+
+```lua
+ a[x] = a.x
+```
