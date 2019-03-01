@@ -25,4 +25,4 @@ Ti consiglio di andare sul sito ufficiale di [LUA.org] per scaricare l'interpret
 
 * 20/02/2019 Inserito Capitolo 1.6 dedicato alle Tabelle 
 
-* 01/03/2019 Inserito Capitolo 3 dedicato alle istruzioni di LUA
+* 01/03/2019 Inserito Capitolo 3 dedicato alle istruzioni di LUA (in aggiornamento)
